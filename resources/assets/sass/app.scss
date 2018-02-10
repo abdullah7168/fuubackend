@@ -7,3 +7,39 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// Normalize
+html,body{
+    margin:0;
+    padding:0;
+}
+
+
+// components styling
+.app-header{
+    background:#fff;
+    padding:15px;
+    box-shadow:1px 1px 1px #333;
+}
+
+.app-sidebar{
+    background:#fff;
+    width:250px;
+    min-height:100vh;
+    border-top:1px solid #333;
+    padding:30px;
+    .app-sidebar--nav{
+        padding: 0;
+        line-height: 2;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        cursor: pointer;
+        text-align: left;
+        list-style: none;
+        padding-left: 30px;
+
+    }
+}
